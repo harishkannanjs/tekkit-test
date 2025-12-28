@@ -18,10 +18,30 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-8">
           <Link to={ROUTES.HOME} className="text-xl font-bold text-gray-900">
-            ${parsedContent.title || 'Site'}
+            Tekkit
           </Link>
           <nav className="hidden md:flex items-center gap-6">
-            ${navItemsCode || '<NavLink to={ROUTES.HOME} className={navLinkClass}>Home</NavLink>'}
+                <NavLink to="https://tekkit.netlify.app/pages/courses" className={navLinkClass}>
+      Courses
+    </NavLink>
+    <NavLink to="https://tekkit.netlify.app/pages/courses/catalyst" className={navLinkClass}>
+      Web Catalyst Bootcamp
+    </NavLink>
+    <NavLink to="https://tekkit.netlify.app/pages/pricing" className={navLinkClass}>
+      Pricing
+    </NavLink>
+    <NavLink to="https://tekkit.netlify.app/pages/courses" className={navLinkClass}>
+      Courses
+    </NavLink>
+    <NavLink to="https://tekkit.netlify.app/pages/courses/catalyst" className={navLinkClass}>
+      Web Catalyst Bootcamp
+    </NavLink>
+    <NavLink to="https://tekkit.netlify.app/pages/pricing" className={navLinkClass}>
+      Pricing
+    </NavLink>
+    <NavLink to="https://tekkit.netlify.app/pages/apply-now" className={navLinkClass}>
+      Apply Now
+    </NavLink>
           </nav>
         </div>
         <div className="flex items-center gap-4">

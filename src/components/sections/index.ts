@@ -1,12 +1,1 @@
-export { BuiltforpeoplewhothinkupsidedowninTech1 } from './BuiltforpeoplewhothinkupsidedowninTech1'
-export { BuiltforpeoplewhothinkupsidedowninTech2 } from './BuiltforpeoplewhothinkupsidedowninTech2'
-export { TechSkillsMadeSimple3 } from './TechSkillsMadeSimple3'
-export { TechSkillsMadeSimple4 } from './TechSkillsMadeSimple4'
-export { OurCourses5 } from './OurCourses5'
-export { OurCourses6 } from './OurCourses6'
-export { YourTechCareerStartsHere7 } from './YourTechCareerStartsHere7'
-export { YourTechCareerStartsHere8 } from './YourTechCareerStartsHere8'
-export { ForDevelopers9 } from './ForDevelopers9'
-export { LetsBuildtheFutureTogether10 } from './LetsBuildtheFutureTogether10'
-export { LetsBuildtheFutureTogether11 } from './LetsBuildtheFutureTogether11'
-export { Sectionindex112 } from './Sectionindex112'
+// Sections are rendered directly in Home.tsx for maximum fidelity
